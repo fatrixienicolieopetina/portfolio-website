@@ -1,0 +1,41 @@
+.AboutMe {
+    background: #282c34;  
+}
+.About-header {
+    padding: 2vmax;
+    background: #282c34;  
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.column1 {
+    flex: 35%;
+}
+
+.column2 {
+    flex: 65%;
+}
+
+.description {
+    word-wrap: break-word;
+}
+
+.Graduation-Pic {
+    height: 60vmin;
+    pointer-events: none;
+}
+
+.title {
+    font-size: calc(10px + 5vmin) !important;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .About-header {
+        flex-direction: column;
+    }
+}
