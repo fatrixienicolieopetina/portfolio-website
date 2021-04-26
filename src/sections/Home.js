@@ -1,4 +1,4 @@
-import logo from './pat.png';
+import logo from './images/pat.png';
 import './css/Home.css';
 import AboutMe from './AboutMe'
 import {
@@ -7,6 +7,7 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import Portfolio from './Portfolio';
   
 
 function Home() {
@@ -16,25 +17,33 @@ function Home() {
                 <Route path="/aboutme"> 
                     <AboutMe />
                 </Route>
-                <Route path="/portfolio"> 
-                <div className="Home">
-                        <header className="Home-header">
-                            <div>
-                                put here first your dev stack, and projects
-                                <Link to={`/`} className="Portfolio"><h3>Back to Home</h3></Link>
-                            </div>
-                        </header>
-                    </div>
+                <Route path="/portfolio">      
+                    <Portfolio />
                 </Route>
                 <Route path="/">
                     <div className="Home">
                         <header className="Home-header">
                             <div>
                                 <img src={logo} className="Home-logo" alt="logo" />
-                                <h1>Hi, I am Pat!</h1>
-                                <Link to={`/aboutme`} className="AboutMe"><h3>About Me</h3></Link>
-                                <Link to={`/portfolio`} className="Portfolio"><h3>Portfolio</h3></Link>
-                                <div><em>Site written as intro project to React</em></div>
+                                <h1>hi, i am pat!</h1>
+                                <div>
+                                    <em>heads up! this site is boriiiiiiiiiinnng</em>
+                                </div>
+                                <Link to={`/aboutme`} className="AboutMe">
+                                    <h3>about me</h3>
+                                </Link>
+                                <Link to={`/portfolio`} className="Portfolio">
+                                    <h3>portfolio</h3>
+                                </Link>
+                                
+                                <div className="Repo-link">
+                                    <div>
+                                        <em>site written as introductory project to react</em>
+                                    </div>
+                                    <a href="https://github.com/fatrixienicolieopetina/portfolio-website/tree/develop">
+                                        <em>repository link</em>
+                                    </a>
+                                </div>
                             </div>
                         </header>
                     </div>

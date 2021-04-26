@@ -1,0 +1,45 @@
+.Portfolio-component {
+    background: #282c34;  
+    padding: 4vmin;
+    text-align: center;
+}
+.Portfolio-header {
+    /* padding: 2vmax; */
+    background: #282c34;  
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.description, .github {
+    word-wrap: break-word;
+    display: block;
+}
+
+.column1 {
+    padding: 3vmin;
+    flex: 35%;
+}
+
+.column2 {
+    padding: 5vmin;
+    flex: 65%;
+}
+
+.title {
+    color: white;
+}
+
+.Etch-a-Sketch {
+    height: 60vmin;
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .Portfolio-header {
+        flex-direction: column;
+    }
+}

@@ -1,27 +1,30 @@
 import {Link} from "react-router-dom";
-import graduationPic from './graduate.jpg';
+import graduationPic from './images/graduate.jpg';
 import './css/AboutMe.css';
 import { SocialIcon } from 'react-social-icons';
 
 function AboutMe() {
     return ( 
         <div className="AboutMe">
-            <div className="title">About Me</div>
+            <div className="title">about me</div>
             <header className="About-header">
                 <div className="column1">
                     <img src={graduationPic} className="Graduation-Pic" alt="graduationPic" />
-                    <h3>Patricia Nicole Opetina</h3>
+                    <h3>patricia nicole opetina</h3>
                     <div>{computeAge().toFixed(2)} yrs old</div>
-                    <div> BS in Computer Science</div>
+                    <div> bs in computer science</div>
                 </div>
                 <div className="column2">
-                    <h4>Interests</h4>
-                    <div className="description">KPop, Foreign languages (日本語 and 한글)</div>
+                    <h4>interests</h4>
+                    <div className="description">
+                        kpop, foreign languages (日本語 and 한글), financial literacy stuff
+                    </div>
                     <hr />
-                    <h4>Experience</h4>
-                    <div>Junior Software Engineer at ISR Cebu Corp.</div>
+                    <h4>experience</h4>
+                    <div>junior software engineer at ISR Cebu Corp.</div>
+                    <div>junior software associate at Azeus</div>
                     <hr />
-                    <h4>Contact Me</h4>
+                    <h4>contact me</h4>
                     <div>
                         <SocialIcon url="https://twitter.com/jaketrent" className="icon"/> &nbsp;
                          @jinjja_anyeppeo <br />
@@ -29,7 +32,7 @@ function AboutMe() {
                          &nbsp;@fatrixienicolieopetina
                     </div>
 
-                    <Link to={`/`} className="AboutMe"><h5>Back To Home</h5></Link>
+                    <Link to={`/`} className="AboutMe"><h5>back to home</h5></Link>
                 </div>
             </header>
         </div>

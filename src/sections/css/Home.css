@@ -32,6 +32,11 @@
   color: white;
 }
 
+.Repo-link {
+  font-size: 1vmax;
+  color: white;
+}
+
 
 @keyframes Home-logo-spin {
   from {
