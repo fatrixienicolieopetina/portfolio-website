@@ -28,7 +28,7 @@ function AboutMe() {
                     <div>
                         <SocialIcon url="https://twitter.com/colemepat" className="icon"/> &nbsp;
                          @colemepat <br />
-                         <SocialIcon url="https://github.com/colemepat" bgColor="purple" className="icon"/> 
+                         <SocialIcon url="https://github.com/fatrixienicolieopetina" bgColor="purple" className="icon"/> 
                          &nbsp;@fatrixienicolieopetina
                     </div>
 
