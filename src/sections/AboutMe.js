@@ -26,9 +26,9 @@ function AboutMe() {
                     <hr />
                     <h4>contact me</h4>
                     <div>
-                        <SocialIcon url="https://twitter.com/jaketrent" className="icon"/> &nbsp;
-                         @jinjja_anyeppeo <br />
-                         <SocialIcon url="https://github.com/jaketrent" bgColor="purple" className="icon"/> 
+                        <SocialIcon url="https://twitter.com/colemepat" className="icon"/> &nbsp;
+                         @colemepat <br />
+                         <SocialIcon url="https://github.com/fatrixienicolieopetina" bgColor="purple" className="icon"/> 
                          &nbsp;@fatrixienicolieopetina
                     </div>
 
